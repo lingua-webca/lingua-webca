@@ -1,0 +1,32 @@
+{
+  "name": "lingua-webca",
+  "description": "Federated fork of classic reddit UI based on gunDB",
+  "repository": "https://github.com/lingua-webca/lingua-webca",
+  "author": "go1dfish",
+  "license": "MIT",
+  "keywords": [
+    "forum",
+    "federated",
+    "chat",
+    "reddit",
+    "social"
+  ],
+  "scripts": {
+    "setup": "yarn && yarn buildall",
+    "buildall": "lerna run build",
+    "buildchanges": "lerna run build --since",
+    "lernapublish": "lerna publish"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.20.2",
+    "prettier": "^1.19.1"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  }
+}
