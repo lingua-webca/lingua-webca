@@ -1,6 +1,6 @@
 {
   "name": "@lingua-webca/chaingun",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "ChainGun support for Lingua Webca",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
@@ -49,7 +49,7 @@
     "@chaingun/http-adapter": "^0.23.2",
     "@chaingun/sear": "^0.23.2",
     "@chaingun/types": "^0.23.2",
-    "@lingua-webca/core": "^0.0.8",
+    "@lingua-webca/core": "^0.1.0",
     "uri-js": "^4.2.2"
   },
   "devDependencies": {

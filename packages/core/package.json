@@ -1,6 +1,6 @@
 {
   "name": "@lingua-webca/core",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "Uniform Resources based on \"Storage Combinators\" with HTTP-like semantics",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
